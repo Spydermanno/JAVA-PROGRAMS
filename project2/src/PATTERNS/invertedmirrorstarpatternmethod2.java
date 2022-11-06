@@ -1,0 +1,39 @@
+package PATTERNS;
+import java.util.Scanner;
+public class invertedmirrorstarpatternmethod2 {
+
+	public invertedmirrorstarpatternmethod2() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+	    int n=s.nextInt();
+	    int i=1;
+	    while(i<=n) {
+	    	int spaces=1;
+	    	while(spaces<=n-i) {
+	    		System.out.print(' ');
+	    		spaces++;
+	    	}
+	    	int num=1;
+	    	while(num<=i) {
+	    		System.out.print(num);
+	    		num++;
+	    	}
+	        int dec=i;
+	        while(dec>0) {
+	        	if(dec-1==0){
+	        		System.out.print(' ');
+	        	}
+	        	else {
+	        	System.out.print(dec-1);
+	        	}
+	        	dec--;
+	        }
+         i++;
+         System.out.println();
+	}
+
+}
+}

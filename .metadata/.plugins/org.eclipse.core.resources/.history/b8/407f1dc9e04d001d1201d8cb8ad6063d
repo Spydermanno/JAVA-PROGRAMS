@@ -1,0 +1,12 @@
+package ArraysDeclaration;
+
+public class arraysbasics {
+
+	public arraysbasics() {
+		int arr[]=new int[10];
+		arr[0]=10;
+		arr[5]=17;
+		System.out.print(arr[5]);
+	}
+
+}

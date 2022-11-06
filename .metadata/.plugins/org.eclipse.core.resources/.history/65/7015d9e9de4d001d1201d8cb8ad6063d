@@ -1,0 +1,9 @@
+package ArraysDeclaration;
+
+public class arraysbasics {
+
+	public arraysbasics() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

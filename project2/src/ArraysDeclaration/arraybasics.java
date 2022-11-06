@@ -1,0 +1,19 @@
+package ArraysDeclaration;
+
+public class arraybasics {
+
+	public arraybasics() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		int arr[]=new int[10];
+		arr[0]=5;
+		arr[5]=17;
+        System.out.print(arr[0]);
+        char cArray[]=new int[10];
+        double dArray[]=new double[10];
+        System.out.println(cArray[0]);
+	}
+
+}
